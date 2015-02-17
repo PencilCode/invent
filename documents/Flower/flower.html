@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.section {
+	display: none;
+}
+span.highlight {
+	background-color: yellow;
+	font-family:Consolas;
+}
+body {
+	font-family:Arial;
+	font-size:12pt;
+}
+h1{
+	font-family:Arial;
+	font-weight:300;
+	font-size:16pt;
+}
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b8e356), color-stop(1, #a5cc52) );
+	background:-moz-linear-gradient( center top, #b8e356 5%, #a5cc52 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8e356', endColorstr='#a5cc52');
+	background-color:#b8e356;
+	-webkit-border-top-left-radius:9px;
+	-moz-border-radius-topleft:9px;
+	border-top-left-radius:9px;
+	-webkit-border-top-right-radius:9px;
+	-moz-border-radius-topright:9px;
+	border-top-right-radius:9px;
+	-webkit-border-bottom-right-radius:9px;
+	-moz-border-radius-bottomright:9px;
+	border-bottom-right-radius:9px;
+	-webkit-border-bottom-left-radius:9px;
+	-moz-border-radius-bottomleft:9px;
+	border-bottom-left-radius:9px;
+	text-indent:0;
+	border:1px solid #83c41a;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:30px;
+	line-height:30px;
+	width:75px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #86ae47;
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a5cc52), color-stop(1, #b8e356) );
+	background:-moz-linear-gradient( center top, #a5cc52 5%, #b8e356 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5cc52', endColorstr='#b8e356');
+	background-color:#a5cc52;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+</style>
+</head>
+<div style="width:50%;position:relative;overflow:hidden;">
+<h1>Challenge: A Flower for Spring</h1>
+<a data-section="Step1" class="button">Step 1</a>
+<a data-section="Step2" class="button">Step 2</a>
+<a data-section="Step3" class="button">Step 3</a>
+<a data-section="Step4" class="button">Step 4</a>
+<a data-section="Step5" class="button">Step 5</a>
+
+<div id="Step1" class="section">
+<p>
+<b>Step 1</b> Draw a stem<br>
+<ul>
+<li>Drag the pen block onto your canvas and make it <span class=highlight>green</span> or your favorite color.</li>
+<li>To draw a stem, you can draw a small part of a big circle!</li>
+<li>Drag the rt block onto your canvas. Type <span class=highlight>30</span>, then <span class=highlight>200</span> so that you make a slight curve for a circle with radius 200.</li>
+<li>Press the <img src="playbutton.jpg" height=20px /> button to see the stem grow</li>
+</ul><br><img src="flower1.png" height=300px />
+</p></div>
+
+<div id="Step2" class="section">
+<p>
+<b>Step 2</b> Draw the first petal<br>
+<ul>
+<li>Now you can draw the petals with little circles.</li>
+<li>First, change the color by dragging the pen block onto your canvas and making it <span class=highlight>orange</span> or what you like.</li>
+<li>Now, drag an rt block onto your canvas to make a circle.</li>
+<li>To make a smaller, complete circle, you can type in <span class=highlight>360</span>, then <span class=highlight>20</span>.</li>
+<li>360 means the line will complete a full circle and 20 indicates the size of the circle.</li>
+</ul>
+</p><br><img src="flower2.png" height=300px /></div>
+
+<div id="Step3" class="section">
+<p><b>Step 3</b> Learning how to turn<br>
+<ul>
+<li>Now you want the turtle to turn a little bit so you can draw another circle petal in a different spot. </li>
+<li>Drag our new favorite rt block onto your canvas.</li>
+<li>If you enter a value, like <span class=highlight>90</span>, the turtle will turn right by 90 degrees.</li>
+<li>Only enter one value in the rt block for the turtle to turn!</li></ul>
+</p><br><img src="flower3.png" height=300px /></div>
+
+<div id="Step4" class="section">
+<p><b>Step 4</b> Finish drawing all the petals<br>
+<ul>
+<li>Once the turtle is turned 90 degrees right, you can draw a new circle petal.</li>
+<li>To draw a circle petal, repeat the steps from the first petal.</li>
+<li>Drag the rt block onto the canvas and type in <span class=highlight>360</span>, then <span class=highlight>20</span>.</li>
+<li>After your second petal is complete, the turtle must turn again before you make a new petal.</li>
+<li>To turn the turtle, drag an rt block and only fill in one value, like <span class=highlight>90</span> for the turtle to turn 90 degrees right.</li>
+<li>Repeat the circle petal steps and keep turning the turtle until you have enough petals.</li></ul>
+</p><br>
+<img src="flower4.png" height=300px /></div>
+
+<div id="Step5" class="section">
+<p><b>Step 5</b> Fill it in and you've got a flower!<br>
+<ul>
+<li>Now the super fun part: fill in your flower.</li>
+<li>Drag the fill block onto your canvas.</li>
+<li>Select a nice complementary color, like  <span class=highlight>yellow</span>.</li>
+<li>Your flower is done. It's basically spring. Hooray!</li></ul>
+</p><br>
+<img src="flower5.png" height=300px /></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+$('.button').click(function() {
+  var section = '#' + $(this).data('section');
+  $('.section').not(section).hide();
+  $(section).show();
+  var scroll = $('body').scrollTop();
+  location.hash = section;
+  $('body').scrollTop(scroll);
+});
+// show the first section (or whatever is in the URL hash) to start.
+$(location.hash || '#Step1').show();
+$('body').scrollTop(0);
+</script>
+</body></html>

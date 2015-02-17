@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.section {
+	display: none;
+}
+span.highlight {
+	background-color: yellow;
+	font-family:Consolas;
+}
+body {
+	font-family:Arial;
+	font-size:12pt;
+}
+h1{
+	font-family:Arial;
+	font-weight:300;
+	font-size:16pt;
+}
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b8e356), color-stop(1, #a5cc52) );
+	background:-moz-linear-gradient( center top, #b8e356 5%, #a5cc52 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8e356', endColorstr='#a5cc52');
+	background-color:#b8e356;
+	-webkit-border-top-left-radius:9px;
+	-moz-border-radius-topleft:9px;
+	border-top-left-radius:9px;
+	-webkit-border-top-right-radius:9px;
+	-moz-border-radius-topright:9px;
+	border-top-right-radius:9px;
+	-webkit-border-bottom-right-radius:9px;
+	-moz-border-radius-bottomright:9px;
+	border-bottom-right-radius:9px;
+	-webkit-border-bottom-left-radius:9px;
+	-moz-border-radius-bottomleft:9px;
+	border-bottom-left-radius:9px;
+	text-indent:0;
+	border:1px solid #83c41a;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:30px;
+	line-height:30px;
+	width:75px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #86ae47;
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a5cc52), color-stop(1, #b8e356) );
+	background:-moz-linear-gradient( center top, #a5cc52 5%, #b8e356 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a5cc52', endColorstr='#b8e356');
+	background-color:#a5cc52;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+</style>
+</head>
+<div style="width:50%;position:relative;overflow:hidden;">
+<h1>Challenge: Do You Want to Build a Snowman?</h1>
+<a data-section="Step1" class="button">Step 1</a>
+<a data-section="Step2" class="button">Step 2</a>
+<a data-section="Step3" class="button">Step 3</a>
+<a data-section="Step4" class="button">Step 4</a>
+<a data-section="Step5" class="button">Step 5</a>
+
+<div id="Step1" class="section">
+<p>
+<b>Step 1</b> Make the snowman base<br>
+<ul>
+<li>Drag the dot block onto your canvas.</li>
+<li>To make your first snowball, type in a color, like <span class=highlight>snow</span>, and a size, like <span class=highlight>100</span></li>
+<li>Press the <img src="playbutton.jpg" height=20px /> button to see the snowball form</li>
+</ul><br><img src="snowman1.png" height=300px />
+</p></div>
+
+<div id="Step2" class="section">
+<p>
+<b>Step 2</b> Make the snowman body<br>
+<ul>
+<li>Now that you have a base, you need to move the cursor up for the second snowball.</li>
+<li>To move the cursor up, drag the fd block onto your canvas.</li>
+<li>Enter a value, like <span class=highlight>80</span> to move up 80 steps.</li>
+<li>Once you've moved up, you can make the second snowball! Remember to do that, you would use the dot block.</li>
+<li>If you want to make a smaller snowball, you may type in a smaller size for this dot, like <span class=highlight>80</span></li></ul>
+</p><br><img src="snowman3.png" height=300px /></div>
+
+<div id="Step3" class="section">
+<p><b>Step 3</b> Finally, the snowman's head<br>
+<ul>
+<li>To make the snowman's head, repeat what we did with the second snowball.</li>
+<li>First, you move the cursor up again. Drag the fd block onto your canvas.</li>
+<li>Enter a value, like <span class=highlight>60</span> to move up 60 steps.</li>
+<li>Once you've moved up, you can make the last snowball! Remember to drag over the dot block.</li>
+<li>For the third snowball, you may type in an even smaller size for this dot, like <span class=highlight>50</span></li></ul>
+</p><br><img src="snowman4.png" height=300px /></div>
+
+<div id="Step4" class="section">
+<p><b>Step 4</b> Give the snowman some buttons<br>
+<ul>
+<li>Let's dress the snowman with a button.</li>
+<li>First, we need to move the cursor down.</li>
+<li>To move down, drag the bk block onto your canvas.</li>
+<li>To put a button on the second snowball, you can put in a value like <span class=highlight>45</span> to move down 45 steps.</li>
+<li>Once your cursor is where you want it, drag a dot button onto the canvas. You can make the dot <span class=highlight>black</span> with <span class=highlight>5</span> in size.</li></ul>
+</p><br>
+<img src="snowman5.png" height=300px /></div>
+
+<div id="Step5" class="section">
+<p><b>Step 5</b> Finish the buttons, and you're all set<br>
+<ul>
+<li>Add a few more buttons!</li>
+<li>Again, we will need to move the cursor down.</li>
+<li>To move down, drag another bk block onto your canvas.</li>
+<li>If you want more buttons close to each other, you can put in a smaller value like <span class=highlight>20</span> to move down 20 steps.</li>
+<li>Repeat the steps once more to get a dapper snowman with three buttons. Voila, you're done!</li></ul>
+</p><br>
+<img src="snowman6.png" height=300px /></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+$('.button').click(function() {
+  var section = '#' + $(this).data('section');
+  $('.section').not(section).hide();
+  $(section).show();
+  var scroll = $('body').scrollTop();
+  location.hash = section;
+  $('body').scrollTop(scroll);
+});
+// show the first section (or whatever is in the URL hash) to start.
+$(location.hash || '#Step1').show();
+$('body').scrollTop(0);
+</script>
+</body></html>
